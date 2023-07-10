@@ -1,0 +1,32 @@
+footer.footer {
+  background-color: #282c35;
+  padding-top: 10rem;
+  padding-bottom: 7rem;
+  color: white;
+}
+
+.footer-title {
+  font-size: 16px;
+  color: #adb0b6;
+  margin-bottom: 2rem;
+  font-weight: 400;
+}
+
+.footer-nav {
+  list-style-type: none;
+  margin: 0;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.footer-link:hover {
+  color: #0a5551;
+}
+
+.highlight-text {
+  color: #0a5551;
+}

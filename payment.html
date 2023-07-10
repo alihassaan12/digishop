@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home meal delivery in Marrakech - FOD</title>
+    <link rel="icon" type="image/x-icon" href="img/icon.png">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="overflow-hidden">
+    <section class="container-fluid info-bgcolor payment-sec-bar pamynt-section-p">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-9 px-0">
+                <!-- nav-bar -->
+                <header class="col-sm-12 col-md-12 col-lg-9 fixed-top bg-white px-0">
+                    <nav class="navbar navbar-expand-lg nav-border py-3 px-4 ">
+                        <div class="container-fluid px-0 ">
+                            <a class="navbar-brand" href="#"><img src="img/nav-icons/nav-icon.png"
+                                    class="img-fluid"></a>
+                            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                                <div class="sm-navbar mx-2">
+                                    <div class="nav-icon-phone">
+                                        <div class="icon-toltip" style="padding: 16px 17px;">
+                                            <i class="fa-solid fa-phone-flip"></i>
+                                            <div class="icon-opn-hov">
+                                                <p class="gilory-regular mb-0 text-uppercase text-center"
+                                                    style="font-size: 9px;letter-spacing: 1px;">Téléphone</p>
+                                                <a href="#">
+                                                    <p class="gilory-ebold text-white mb-0">0678406079</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sm-navbar mx-2">
+                                    <div class="nav-icon-loction">
+                                        <div class="icon-toltip" style="padding: 17px 20px;">
+                                            <i class="fa-solid fa-location-dot"></i>
+                                            <div class="icon-opn-hov">
+                                                <p class="gilory-bold mb-1 text-uppercase text-center"
+                                                    style="font-size: 10px; letter-spacing: 1px;">ARE YOU SURE</p>
+                                                <P class="py-1 px-2 gilory-bold mb-2"
+                                                    style="background-color: rgba(255, 255, 255, 0.151); border-radius: 100px ;">
+                                                    Marrakesh</P>
+                                                <a class="text-decoration-none" style="font-size:10px ;" href="#">
+                                                    <p class="mb-0 text-white gilory-bold">FIND OUT MORE<i
+                                                            class="fa-solid fa-arrow-right ps-2"></i></p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <a class="ms-2" href="index.html">
+                                        <button type="submit"
+                                            class="py-3 px-4 nav-btn green-bg-color text text-white gilory-bold border-0">
+                                            <i class="fa-solid fa-arrow-left-long mx-1"></i>Back to Home</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </header>
+                <!-- nav-bar -->
+                <!-- sm-basket -->
+                <section class="fixed-top sm-basket" style="top:80%;">
+                    <div class="green-bg-color mx-5 py-3" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom"
+                        aria-controls="offcanvasBottom" style="border-radius: 12px;">
+                        <div class="row justify-content-around">
+                            <div class="col-2 px-0">
+                                <i class="fa-solid fa-cart-shopping bg-white p-3 text-danger fa-2x"
+                                    style="border-radius: 12px;"></i>
+                            </div>
+                            <div class="col-2 px-0 text-white">
+                                <p class="mb-0 fs-3 gilory-bold">BASKET</p>
+                                <p class="mb-0 fs-4 gilory-bold">€0</p>
+                            </div>
+                            <div class="col-2 px-0 text-center">
+                                <p class="mb-0 gilory-bold bg-white zero-radius text-danger px-0 py-3">€0</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom"
+                        aria-labelledby="offcanvasBottomLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasBottomLabel">Offcanvas bottom</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div>
+                            <div class="p-sidebr">
+                                <div class="row silde-br-head-bg align-items-center py-3 justify-content-center">
+                                    <div class="col-3">
+                                        <i
+                                            class="fa-solid fa-cart-shopping text-white green-bg-color p-3 cart-i fa-2x"></i>
+                                    </div>
+                                    <div class="col-4">
+                                        <h6 class="mb-0 leter-space gilory-sbold">BASKET</h6>
+                                        <p class="mb-0 fs-5 purple-clor gilory-bold">€0</p>
+                                    </div>
+                                    <div class="col-3 text-center ms-5">
+                                        <h5 class="mb-0 gilory-bold bg-white py-3 px-3 zero-radius purple-clor">0</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ps-4 pt-4 leter-space">
+                                <p class="purple-clor gilory-sbold ps-">ORDERED</p>
+                            </div>
+                            <div class=" sidebar-scrol-bar pb-5">
+                                <div class="row align-items-center justify-content-center pb-3">
+                                    <div class="col-4 px-0">
+                                        <img src="img/products/the-burger/burger-1-m.jpg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="col-4 gilory-bold px-0">
+                                        <h5 class="mb-0">The-Burger</h5>
+                                        <p class="mb-0 sky-color gilory-sbold">4Roms</p>
+                                        <p class="mb-0">€44</p>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="row text-center justify-content-between align-items-center">
+                                            <div class="col-4 px-0"><i class="fa-solid fa-xmark text-white"
+                                                    style="border-radius:100% ; padding: 5px 7px; background-color: #ff0606; font-size:12px;"></i>
+                                            </div>
+                                            <div class="col-3 px-0">
+                                                <p class="p-0 m-0 gilory-sbold">23</p>
+                                            </div>
+                                            <div class="col-4 px-0"><i class="fa-solid fa-plus text-white"
+                                                    style="border-radius:100% ; padding: 5px 5px 5px 5px; background-color: #F5AD41; font-size:12px;"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row align-items-center justify-content-center pb-3">
+                                    <div class="col-4 px-0">
+                                        <img src="img/products/the-burger/burger-1-m.jpg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="col-4 gilory-bold px-0">
+                                        <h5 class="mb-0">The-Burger</h5>
+                                        <p class="mb-0 sky-color gilory-sbold">4Roms</p>
+                                        <p class="mb-0">€44</p>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="row text-center justify-content-between align-items-center">
+                                            <div class="col-4 px-0"><i class="fa-solid fa-xmark text-white"
+                                                    style="border-radius:100% ; padding: 5px 7px; background-color: #ff0606; font-size:12px;"></i>
+                                            </div>
+                                            <div class="col-3 px-0">
+                                                <p class="p-0 m-0 gilory-sbold">23</p>
+                                            </div>
+                                            <div class="col-4 px-0"><i class="fa-solid fa-plus text-white"
+                                                    style="border-radius:100% ; padding: 5px 5px 5px 5px; background-color: #F5AD41; font-size:12px;"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row align-items-center justify-content-center pb-3">
+                                    <div class="col-4 px-0">
+                                        <img src="img/products/the-burger/burger-1-m.jpg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="col-4 gilory-bold px-0">
+                                        <h5 class="mb-0">The-Burger</h5>
+                                        <p class="mb-0 sky-color gilory-sbold">4Roms</p>
+                                        <p class="mb-0">€44</p>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="row text-center justify-content-between align-items-center">
+                                            <div class="col-4 px-0"><i class="fa-solid fa-xmark text-white"
+                                                    style="border-radius:100% ; padding: 5px 7px; background-color: #ff0606; font-size:12px;"></i>
+                                            </div>
+                                            <div class="col-3 px-0">
+                                                <p class="p-0 m-0 gilory-sbold">23</p>
+                                            </div>
+                                            <div class="col-4 px-0"><i class="fa-solid fa-plus text-white"
+                                                    style="border-radius:100% ; padding: 5px 5px 5px 5px; background-color: #F5AD41; font-size:12px;"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row align-items-center justify-content-center pb-3">
+                                    <div class="col-4 px-0">
+                                        <img src="img/products/the-burger/burger-1-m.jpg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="col-4 gilory-bold px-0">
+                                        <h5 class="mb-0">The-Burger</h5>
+                                        <p class="mb-0 sky-color gilory-sbold">4Roms</p>
+                                        <p class="mb-0">€44</p>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="row text-center justify-content-between align-items-center">
+                                            <div class="col-4 px-0"><i class="fa-solid fa-xmark text-white"
+                                                    style="border-radius:100% ; padding: 5px 7px; background-color: #ff0606; font-size:12px;"></i>
+                                            </div>
+                                            <div class="col-3 px-0">
+                                                <p class="p-0 m-0 gilory-sbold">23</p>
+                                            </div>
+                                            <div class="col-4 px-0"><i class="fa-solid fa-plus text-white"
+                                                    style="border-radius:100% ; padding: 5px 5px 5px 5px; background-color: #F5AD41; font-size:12px;"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row align-items-center justify-content-center pb-3">
+                                    <div class="col-4 px-0">
+                                        <img src="img/products/the-burger/burger-1-m.jpg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="col-4 gilory-bold px-0">
+                                        <h5 class="mb-0">The-Burger</h5>
+                                        <p class="mb-0 sky-color gilory-sbold">4Roms</p>
+                                        <p class="mb-0">€44</p>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="row text-center justify-content-between align-items-center">
+                                            <div class="col-4 px-0"><i class="fa-solid fa-xmark text-white"
+                                                    style="border-radius:100% ; padding: 5px 7px; background-color: #ff0606; font-size:12px;"></i>
+                                            </div>
+                                            <div class="col-3 px-0">
+                                                <p class="p-0 m-0 gilory-sbold">23</p>
+                                            </div>
+                                            <div class="col-4 px-0"><i class="fa-solid fa-plus text-white"
+                                                    style="border-radius:100% ; padding: 5px 5px 5px 5px; background-color: #F5AD41; font-size:12px;"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row align-items-center justify-content-center pb-3">
+                                    <div class="col-4 px-0">
+                                        <img src="img/products/the-burger/burger-1-m.jpg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="col-4 gilory-bold px-0">
+                                        <h5 class="mb-0">The-Burger</h5>
+                                        <p class="mb-0 sky-color gilory-sbold">4Roms</p>
+                                        <p class="mb-0">€44</p>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="row text-center justify-content-between align-items-center">
+                                            <div class="col-4 px-0"><i class="fa-solid fa-xmark text-white"
+                                                    style="border-radius:100% ; padding: 5px 7px; background-color: #ff0606; font-size:12px;"></i>
+                                            </div>
+                                            <div class="col-3 px-0">
+                                                <p class="p-0 m-0 gilory-sbold">23</p>
+                                            </div>
+                                            <div class="col-4 px-0"><i class="fa-solid fa-plus text-white"
+                                                    style="border-radius:100% ; padding: 5px 5px 5px 5px; background-color: #F5AD41; font-size:12px;"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row align-items-center justify-content-center pb-3">
+                                    <div class="col-4 px-0">
+                                        <img src="img/products/the-burger/burger-1-m.jpg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="col-4 gilory-bold px-0">
+                                        <h5 class="mb-0">The-Burger</h5>
+                                        <p class="mb-0 sky-color gilory-sbold">4Roms</p>
+                                        <p class="mb-0">€44</p>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="row text-center justify-content-between align-items-center">
+                                            <div class="col-4 px-0"><i class="fa-solid fa-xmark text-white"
+                                                    style="border-radius:100% ; padding: 5px 7px; background-color: #ff0606; font-size:12px;"></i>
+                                            </div>
+                                            <div class="col-3 px-0">
+                                                <p class="p-0 m-0 gilory-sbold">23</p>
+                                            </div>
+                                            <div class="col-4 px-0"><i class="fa-solid fa-plus text-white"
+                                                    style="border-radius:100% ; padding: 5px 5px 5px 5px; background-color: #F5AD41; font-size:12px;"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row align-items-center justify-content-center pb-3">
+                                    <div class="col-4 px-0">
+                                        <img src="img/products/the-burger/burger-1-m.jpg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="col-4 gilory-bold px-0">
+                                        <h5 class="mb-0">The-Burger</h5>
+                                        <p class="mb-0 sky-color gilory-sbold">4Roms</p>
+                                        <p class="mb-0">€44</p>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="row text-center justify-content-between align-items-center">
+                                            <div class="col-4 px-0"><i class="fa-solid fa-xmark text-white"
+                                                    style="border-radius:100% ; padding: 5px 7px; background-color: #ff0606; font-size:12px;"></i>
+                                            </div>
+                                            <div class="col-3 px-0">
+                                                <p class="p-0 m-0 gilory-sbold">23</p>
+                                            </div>
+                                            <div class="col-4 px-0"><i class="fa-solid fa-plus text-white"
+                                                    style="border-radius:100% ; padding: 5px 5px 5px 5px; background-color: #F5AD41; font-size:12px;"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row align-items-center justify-content-center pb-3">
+                                    <div class="col-4 px-0">
+                                        <img src="img/products/the-burger/burger-1-m.jpg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="col-4 gilory-bold px-0">
+                                        <h5 class="mb-0">The-Burger</h5>
+                                        <p class="mb-0 sky-color gilory-sbold">4Roms</p>
+                                        <p class="mb-0">€44</p>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="row text-center justify-content-between align-items-center">
+                                            <div class="col-4 px-0"><i class="fa-solid fa-xmark text-white"
+                                                    style="border-radius:100% ; padding: 5px 7px; background-color: #ff0606; font-size:12px;"></i>
+                                            </div>
+                                            <div class="col-3 px-0">
+                                                <p class="p-0 m-0 gilory-sbold">23</p>
+                                            </div>
+                                            <div class="col-4 px-0"><i class="fa-solid fa-plus text-white"
+                                                    style="border-radius:100% ; padding: 5px 5px 5px 5px; background-color: #F5AD41; font-size:12px;"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row align-items-center justify-content-center pb-3">
+                                    <div class="col-4 px-0">
+                                        <img src="img/products/the-burger/burger-1-m.jpg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="col-4 gilory-bold px-0">
+                                        <h5 class="mb-0">The-Burger</h5>
+                                        <p class="mb-0 sky-color gilory-sbold">4Roms</p>
+                                        <p class="mb-0">€44</p>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="row text-center justify-content-between align-items-center">
+                                            <div class="col-4 px-0"><i class="fa-solid fa-xmark text-white"
+                                                    style="border-radius:100% ; padding: 5px 7px; background-color: #ff0606; font-size:12px;"></i>
+                                            </div>
+                                            <div class="col-3 px-0">
+                                                <p class="p-0 m-0 gilory-sbold">23</p>
+                                            </div>
+                                            <div class="col-4 px-0"><i class="fa-solid fa-plus text-white"
+                                                    style="border-radius:100% ; padding: 5px 5px 5px 5px; background-color: #F5AD41; font-size:12px;"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row align-items-center justify-content-center pb-3">
+                                    <div class="col-4 px-0">
+                                        <img src="img/products/the-burger/burger-1-m.jpg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="col-4 gilory-bold px-0">
+                                        <h5 class="mb-0">The-Burger</h5>
+                                        <p class="mb-0 sky-color gilory-sbold">4Roms</p>
+                                        <p class="mb-0">€44</p>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="row text-center justify-content-between align-items-center">
+                                            <div class="col-4 px-0"><i class="fa-solid fa-xmark text-white"
+                                                    style="border-radius:100% ; padding: 5px 7px; background-color: #ff0606; font-size:12px;"></i>
+                                            </div>
+                                            <div class="col-3 px-0">
+                                                <p class="p-0 m-0 gilory-sbold">23</p>
+                                            </div>
+                                            <div class="col-4 px-0"><i class="fa-solid fa-plus text-white"
+                                                    style="border-radius:100% ; padding: 5px 5px 5px 5px; background-color: #F5AD41; font-size:12px;"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row align-items-center justify-content-center" style="padding-bottom: 70px;">
+                                    <div class="col-4 px-0">
+                                        <img src="img/products/the-burger/burger-1-m.jpg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="col-4 gilory-bold px-0">
+                                        <h5 class="mb-0">The-Burger</h5>
+                                        <p class="mb-0 sky-color gilory-sbold">4Roms</p>
+                                        <p class="mb-0">€44</p>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="row text-center justify-content-between align-items-center">
+                                            <div class="col-4 px-0"><i class="fa-solid fa-xmark text-white"
+                                                    style="border-radius:100% ; padding: 5px 7px; background-color: #ff0606; font-size:12px;"></i>
+                                            </div>
+                                            <div class="col-3 px-0">
+                                                <p class="p-0 m-0 gilory-sbold">23</p>
+                                            </div>
+                                            <div class="col-4 px-0"><i class="fa-solid fa-plus text-white"
+                                                    style="border-radius:100% ; padding: 5px 5px 5px 5px; background-color: #F5AD41; font-size:12px;"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mx-0 purple-clor">
+                                <div class="col-12 py-3 position-absolute bottom-0 bg-white shadow-sidebar px-4">
+                                    <div class="row align-items-center">
+                                        <div class="col-8 gilory-sbold leter-space">
+                                            <p class=" mb-2">SUBTOTAL</p>
+                                        </div>
+                                        <div class="col-4 gilory-bold text-end">
+                                            <p class=" mb-2">€0</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-8 gilory-sbold leter-space">
+                                            <p>SHIPPING COST</p>
+                                        </div>
+                                        <div class="col-4 gilory-bold text-end">
+                                            <p>€10</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-8 gilory-sbold leter-space">
+                                            <p>TOTAL</p>
+                                        </div>
+                                        <div class="col-4 gilory-bold text-end fs-4">
+                                            <p>€0</p>
+                                        </div>
+                                    </div>
+                                    <div class="row px-4">
+                                        <button class="border-0 text-white py-3 green-bg-color side-br-b gilory-bold">TO
+                                            ORDER</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- sm-basket -->
+                <section class="container-fluid px-5 py-5">
+                    <div class="row align-items-center justify-content-between">
+                        <div class="col-sm-6 col-md-6 col-lg-4">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="col-5 px-3">
+                                    <p
+                                        style=" position: absolute; bottom: 40%; left: 4%; font-size: 18px; font-weight: bolder;">
+                                        2 Out of 2</p>
+                                    <img src="img/chech-out/2nd-circle.svg" style="width: 100%; height: 30vh;"
+                                        alt="not-found">
+                                </div>
+                                <div class="col-8">
+                                    <h6 class="purple-clor gilory-bold"></h6>
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <div class="col-2">
+                                            <i class="fa-regular fa-circle-right fa-2x purple-clor"></i>
+                                        </div>
+                                        <div class="col-9">
+                                            <p class="mb-0 purple-clor gilory-sbold">NEXT STEP
+                                                VALIDATION</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="container-fluid px-5">
+                    <div class="row justify-content-between row-b">
+                        <div class="bg-white payment-sec-w mb-5 py-4" style="border-radius: 14px ; ">
+                            <div class="row align-items-center border-info border-bottom py-4 px-2">
+                                <div class="col-4 sm-navbar">
+                                    <i class="fa-solid fa-star rounded-circle p-4 fa-3x green-color"
+                                        style="border:2px solid #F5AD41 ;"></i>
+                                </div>
+                                <div class="col-sm-12 col-md-12 col-lg-8 text-sm">
+                                    <h4 class="gilory-bold purple-clor">FOD Priority</h4>
+                                    <p class="gilory-sbold text-secondary">If you have an FOD Priority subscription, you
+                                        can
+                                        benefit from free delivery as well as
+                                        priority processing of your order.</p>
+                                    <div class="my-3">
+                                        <button class="btn-payment-sec gilory-bold py-2 px-4">Monthly - 49 Dhs</button>
+                                    </div>
+                                    <div class="my-3">
+                                        <button class="btn-payment-sec gilory-bold py-2 px-4">Annual - 499 Dhs</button>
+                                    </div>
+                                    <div class="text-end">
+                                        <a href="">
+                                            <button class="bg-transparent border-0 gilory-sbold text-secondary">Learn
+                                                more<i class="fa-solid fa-angle-right ms-1 text-secondary"></i></button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row py-4 px-2 border-info border-bottom">
+                                <div class="row align-items-center">
+                                    <div class="col-4 sm-navbar">
+                                        <img src="img/chechout/half-circle.fefb2494092c08ecef75.svg" alt="">
+                                    </div>
+                                    <div class="col-sm-12 col-md-12 col-lg-8">
+                                        <h5 class="mb-0 gilory-bold purple-clor ">Discount by numbers</h5>
+                                        <p class="mb-0 gilory-sbold text-secondary">The more orders you place, the more
+                                            you save
+                                        </p>
+                                    </div>
+                                </div>
+                                <p class="mb-0 gilory-sbold pt-3  text-secondary">Add 5 other orders for a -5%
+                                    discount
+                                </p>
+                            </div>
+                            <div class="row py-4 px-2">
+                                <div class="col-12">
+                                    <h5 class="gilory-bold purple-clor">Promo code</h5>
+                                    <p class="text-secondary gilory-sbold">Please enter a promo code</p>
+                                    <form class="row">
+                                        <div class="col-9">
+                                            <input type="text"
+                                                class="form-control border-0 rounded-0 border-bottom px-0 gilory-sbold text-secondary"
+                                                id="inputAddress" placeholder="Promo Code" required>
+                                        </div>
+                                        <div class="col-3">
+                                            <button type="submit"
+                                                class="green-bg-color border-0 text-white gilory-bold py-2"
+                                                style="border-radius: 100px;"><i class="fa-solid fa-plus pe-1"></i>To
+                                                Add</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-white payment-sec-w mb-5 py-4" style="border-radius: 14px ;">
+                            <div class="row px-2 py-4 justify-content-center">
+                                <div class="col-12">
+                                    <h5>Payment</h5>
+                                    <p>Choose your payment method</p>
+                                    <div class="row text-center align-items-center justify-content-between">
+                                        <div class="paymnt-hov" style="width: 24%;">
+                                            <i class="fa-solid fa-coins fa-2x"></i>
+                                            <p class="mb-0 gilory-bold fs-payment">Species</p>
+                                        </div>
+                                        <div class="paymnt-hov" style="width: 24%;">
+                                            <i class="fa-brands fa-cc-visa fa-2x"></i>
+                                            <p class="mb-0 gilory-bold fs-payment">credit card online</p>
+                                        </div>
+                                        <div class="paymnt-hov" style="width: 24%;">
+                                            <i class="fa-brands fa-paypal fa-2x"></i>
+                                            <p class="mb-0 gilory-bold fs-payment">PayPal</p>
+                                        </div>
+                                        <div class="paymnt-hov" style="width: 24%;">
+                                            <i class="fa-solid fa-sack-dollar fa-2x"></i>
+                                            <p class="mb-0 gilory-bold fs-payment">Payment by TPE</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row px-2 justify-content-center py-4">
+                                    <div class="row align-items-center green-bg-color text-white py-4"
+                                        style="border-radius:16px ;">
+                                        <div class="col-10">
+                                            <h5 class="gilory-bold">ICIDH Discount</h5>
+                                            <p class="mb-0 gilory-sbold">Pay for your order with a CIH credit card and
+                                                enjoy a
+                                                15%
+                                                discount!</p>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="form-check form-switch">
+                                                <input class="form-check-input" type="checkbox"
+                                                    id="flexSwitchCheckDefault">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row py-4 px-2">
+                                    <div class="col-12">
+                                        <h4 class="gilory-bold purple-clor">Allergies</h4>
+                                        <p class="gilory-sbold text-sm-center">If you have any allergies or would like
+                                            to send
+                                            us a note, please let us know in the comments below.</p>
+                                        <form class="row">
+                                            <div class="col-12">
+                                                <input type="text"
+                                                    class="form-control border-0 rounded-0 border-bottom px-0 gilory-sbold text-secondary"
+                                                    id="inputAddress" placeholder="Comment" required>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- buttons -->
+                <div class="col-12 px-4 pb-5">
+                    <div class="d-flex">
+                        <div class="col-6">
+                            <a href="checkout.html">
+                                <button class="gilory-bold bg-transparent border-0 sky-color"><i
+                                        class="fa-solid fa-arrow-left-long pe-3"></i>RETURN</button>
+                            </a>
+                        </div>
+                        <div class="col-6 text-end">
+                            <a href="confirmation.html">
+                                <button class="gilory-bold bg-transparent border-0 green-color">TO CONFRIM<i
+                                        class="fa-solid fa-arrow-right-long ps-3"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- buttons -->
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-3 px-0">
+                <!-- side-bar-start -->
+                <header class="side-barr">
+                    <div class="col-sm-12 col-md-12 col-lg-3 ms-auto fixed-top bg-white shadow-sidebar py-4"
+                        style="height: 100vh;">
+                        <div class="p-sidebr">
+                            <div class="row silde-br-head-bg align-items-center py-3 justify-content-center">
+                                <div class="col-3">
+                                    <i class="fa-solid fa-cart-shopping text-white green-bg-color p-3 cart-i fa-2x"></i>
+                                </div>
+                                <div class="col-4">
+                                    <h6 class="mb-0 leter-space gilory-sbold">BASKET</h6>
+                                    <p class="mb-0 fs-5 purple-clor gilory-bold">€0</p>
+                                </div>
+                                <div class="col-3 text-center ms-5">
+                                    <h5 class="mb-0 gilory-bold bg-white py-3 px-3 zero-radius purple-clor">0</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ps-4 pt-4 leter-space">
+                            <p class="purple-clor gilory-sbold ps-">ORDERED</p>
+                        </div>
+                        <div class=" sidebar-scrol-bar" style="padding-bottom: 20px;">
+                            <div class="row align-items-center justify-content-center pb-3">
+                                <div class="col-4 px-0">
+                                    <img src="img/products/the-burger/burger-1-m.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-4 gilory-bold px-0">
+                                    <h5 class="mb-0">The-Burger</h5>
+                                    <p class="mb-0 sky-color gilory-sbold">4Roms</p>
+                                    <div class="d-flex align-items-center">
+                                        <p class="mb-0">€44</p>
+                                        <i class="fa-regular fa-trash-can mx-2 green-color"></i>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="row text-center justify-content-between align-items-center">
+                                        <div class="col-4 px-0"><i class="fa-solid fa-xmark text-white"
+                                                style="border-radius:100% ; padding: 5px 7px; background-color: #ff0606; font-size:12px;"></i>
+                                        </div>
+                                        <div class="col-3 px-0">
+                                            <p class="p-0 m-0 gilory-sbold">23</p>
+                                        </div>
+                                        <div class="col-4 px-0"><i class="fa-solid fa-plus text-white"
+                                                style="border-radius:100% ; padding: 5px 5px 5px 5px; background-color: #F5AD41; font-size:12px;"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ps-5">
+                                    <li class="gilory-bold m-0 ps-1" style="font-size: 15px;">1x Large Size</li>
+                                    <li class="gilory-bold m-0 ps-1" style="font-size: 15px;">1x Extra Spice
+                                        <span>(€44)</span>
+                                    </li>
+                                </div>
+                            </div>
+                            <div class="row align-items-center justify-content-center pb-3">
+                                <div class="col-4 px-0">
+                                    <img src="img/products/the-burger/burger-1-m.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-4 gilory-bold px-0">
+                                    <h5 class="mb-0">The-Burger</h5>
+                                    <p class="mb-0 sky-color gilory-sbold">4Roms</p>
+                                    <div class="d-flex align-items-center">
+                                        <p class="mb-0">€44</p>
+                                        <i class="fa-regular fa-trash-can mx-2 green-color"></i>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="row text-center justify-content-between align-items-center">
+                                        <div class="col-4 px-0"><i class="fa-solid fa-xmark text-white"
+                                                style="border-radius:100% ; padding: 5px 7px; background-color: #ff0606; font-size:12px;"></i>
+                                        </div>
+                                        <div class="col-3 px-0">
+                                            <p class="p-0 m-0 gilory-sbold">23</p>
+                                        </div>
+                                        <div class="col-4 px-0"><i class="fa-solid fa-plus text-white"
+                                                style="border-radius:100% ; padding: 5px 5px 5px 5px; background-color: #F5AD41; font-size:12px;"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ps-5">
+                                    <li class="gilory-bold m-0 ps-1" style="font-size: 15px;">1x Large Size</li>
+                                    <li class="gilory-bold m-0 ps-1" style="font-size: 15px;">1x Extra Spice
+                                        <span>(€44)</span>
+                                    </li>
+                                </div>
+                            </div>
+                            <div class="row align-items-center justify-content-center pb-3">
+                                <div class="col-4 px-0">
+                                    <img src="img/products/the-burger/burger-1-m.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-4 gilory-bold px-0">
+                                    <h5 class="mb-0">The-Burger</h5>
+                                    <p class="mb-0 sky-color gilory-sbold">4Roms</p>
+                                    <div class="d-flex align-items-center">
+                                        <p class="mb-0">€44</p>
+                                        <i class="fa-regular fa-trash-can mx-2 green-color"></i>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="row text-center justify-content-between align-items-center">
+                                        <div class="col-4 px-0"><i class="fa-solid fa-xmark text-white"
+                                                style="border-radius:100% ; padding: 5px 7px; background-color: #ff0606; font-size:12px;"></i>
+                                        </div>
+                                        <div class="col-3 px-0">
+                                            <p class="p-0 m-0 gilory-sbold">23</p>
+                                        </div>
+                                        <div class="col-4 px-0"><i class="fa-solid fa-plus text-white"
+                                                style="border-radius:100% ; padding: 5px 5px 5px 5px; background-color: #F5AD41; font-size:12px;"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ps-5">
+                                    <li class="gilory-bold m-0 ps-1" style="font-size: 15px;">1x Large Size</li>
+                                    <li class="gilory-bold m-0 ps-1" style="font-size: 15px;">1x Extra Spice
+                                        <span>(€44)</span>
+                                    </li>
+                                </div>
+                            </div>
+                            <div class="row align-items-center justify-content-center pb-3">
+                                <div class="col-4 px-0">
+                                    <img src="img/products/the-burger/burger-1-m.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-4 gilory-bold px-0">
+                                    <h5 class="mb-0">The-Burger</h5>
+                                    <p class="mb-0 sky-color gilory-sbold">4Roms</p>
+                                    <div class="d-flex align-items-center">
+                                        <p class="mb-0">€44</p>
+                                        <i class="fa-regular fa-trash-can mx-2 green-color"></i>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="row text-center justify-content-between align-items-center">
+                                        <div class="col-4 px-0"><i class="fa-solid fa-xmark text-white"
+                                                style="border-radius:100% ; padding: 5px 7px; background-color: #ff0606; font-size:12px;"></i>
+                                        </div>
+                                        <div class="col-3 px-0">
+                                            <p class="p-0 m-0 gilory-sbold">23</p>
+                                        </div>
+                                        <div class="col-4 px-0"><i class="fa-solid fa-plus text-white"
+                                                style="border-radius:100% ; padding: 5px 5px 5px 5px; background-color: #F5AD41; font-size:12px;"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ps-5">
+                                    <li class="gilory-bold m-0 ps-1" style="font-size: 15px;">1x Large Size</li>
+                                    <li class="gilory-bold m-0 ps-1" style="font-size: 15px;">1x Extra Spice
+                                        <span>(€44)</span>
+                                    </li>
+                                </div>
+                            </div>
+                            <div class="row align-items-center justify-content-center pb-3">
+                                <div class="col-4 px-0">
+                                    <img src="img/products/the-burger/burger-1-m.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-4 gilory-bold px-0">
+                                    <h5 class="mb-0">The-Burger</h5>
+                                    <p class="mb-0 sky-color gilory-sbold">4Roms</p>
+                                    <div class="d-flex align-items-center">
+                                        <p class="mb-0">€44</p>
+                                        <i class="fa-regular fa-trash-can mx-2 green-color"></i>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="row text-center justify-content-between align-items-center">
+                                        <div class="col-4 px-0"><i class="fa-solid fa-xmark text-white"
+                                                style="border-radius:100% ; padding: 5px 7px; background-color: #ff0606; font-size:12px;"></i>
+                                        </div>
+                                        <div class="col-3 px-0">
+                                            <p class="p-0 m-0 gilory-sbold">23</p>
+                                        </div>
+                                        <div class="col-4 px-0"><i class="fa-solid fa-plus text-white"
+                                                style="border-radius:100% ; padding: 5px 5px 5px 5px; background-color: #F5AD41; font-size:12px;"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ps-5">
+                                    <li class="gilory-bold m-0 ps-1" style="font-size: 15px;">1x Large Size</li>
+                                    <li class="gilory-bold m-0 ps-1" style="font-size: 15px;">1x Extra Spice
+                                        <span>(€44)</span>
+                                    </li>
+                                </div>
+                            </div>
+                            <div class="row align-items-center justify-content-center pb-3">
+                                <div class="col-4 px-0">
+                                    <img src="img/products/the-burger/burger-1-m.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-4 gilory-bold px-0">
+                                    <h5 class="mb-0">The-Burger</h5>
+                                    <p class="mb-0 sky-color gilory-sbold">4Roms</p>
+                                    <div class="d-flex align-items-center">
+                                        <p class="mb-0">€44</p>
+                                        <i class="fa-regular fa-trash-can mx-2 green-color"></i>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="row text-center justify-content-between align-items-center">
+                                        <div class="col-4 px-0"><i class="fa-solid fa-xmark text-white"
+                                                style="border-radius:100% ; padding: 5px 7px; background-color: #ff0606; font-size:12px;"></i>
+                                        </div>
+                                        <div class="col-3 px-0">
+                                            <p class="p-0 m-0 gilory-sbold">23</p>
+                                        </div>
+                                        <div class="col-4 px-0"><i class="fa-solid fa-plus text-white"
+                                                style="border-radius:100% ; padding: 5px 5px 5px 5px; background-color: #F5AD41; font-size:12px;"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ps-5">
+                                    <li class="gilory-bold m-0 ps-1" style="font-size: 15px;">1x Large Size</li>
+                                    <li class="gilory-bold m-0 ps-1" style="font-size: 15px;">1x Extra Spice
+                                        <span>(€44)</span>
+                                    </li>
+                                </div>
+                            </div>
+                            <div class="row align-items-center justify-content-center pb-3">
+                                <div class="col-4 px-0">
+                                    <img src="img/products/the-burger/burger-1-m.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-4 gilory-bold px-0">
+                                    <h5 class="mb-0">The-Burger</h5>
+                                    <p class="mb-0 sky-color gilory-sbold">4Roms</p>
+                                    <div class="d-flex align-items-center">
+                                        <p class="mb-0">€44</p>
+                                        <i class="fa-regular fa-trash-can mx-2 green-color"></i>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="row text-center justify-content-between align-items-center">
+                                        <div class="col-4 px-0"><i class="fa-solid fa-xmark text-white"
+                                                style="border-radius:100% ; padding: 5px 7px; background-color: #ff0606; font-size:12px;"></i>
+                                        </div>
+                                        <div class="col-3 px-0">
+                                            <p class="p-0 m-0 gilory-sbold">23</p>
+                                        </div>
+                                        <div class="col-4 px-0"><i class="fa-solid fa-plus text-white"
+                                                style="border-radius:100% ; padding: 5px 5px 5px 5px; background-color: #F5AD41; font-size:12px;"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ps-5">
+                                    <li class="gilory-bold m-0 ps-1" style="font-size: 15px;">1x Large Size</li>
+                                    <li class="gilory-bold m-0 ps-1" style="font-size: 15px;">1x Extra Spice
+                                        <span>(€44)</span>
+                                    </li>
+                                </div>
+                            </div>
+                            <div class="row align-items-center justify-content-center pb-3">
+                                <div class="col-4 px-0">
+                                    <img src="img/products/the-burger/burger-1-m.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-4 gilory-bold px-0">
+                                    <h5 class="mb-0">The-Burger</h5>
+                                    <p class="mb-0 sky-color gilory-sbold">4Roms</p>
+                                    <div class="d-flex align-items-center">
+                                        <p class="mb-0">€44</p>
+                                        <i class="fa-regular fa-trash-can mx-2 green-color"></i>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="row text-center justify-content-between align-items-center">
+                                        <div class="col-4 px-0"><i class="fa-solid fa-xmark text-white"
+                                                style="border-radius:100% ; padding: 5px 7px; background-color: #ff0606; font-size:12px;"></i>
+                                        </div>
+                                        <div class="col-3 px-0">
+                                            <p class="p-0 m-0 gilory-sbold">23</p>
+                                        </div>
+                                        <div class="col-4 px-0"><i class="fa-solid fa-plus text-white"
+                                                style="border-radius:100% ; padding: 5px 5px 5px 5px; background-color: #F5AD41; font-size:12px;"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ps-5">
+                                    <li class="gilory-bold m-0 ps-1" style="font-size: 15px;">1x Large Size</li>
+                                    <li class="gilory-bold m-0 ps-1" style="font-size: 15px;">1x Extra Spice
+                                        <span>(€44)</span>
+                                    </li>
+                                </div>
+                            </div>
+                            <div class="row align-items-center justify-content-center" style="padding-bottom:70px ;">
+                                <div class="col-4 px-0">
+                                    <img src="img/products/the-burger/burger-1-m.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-4 gilory-bold px-0">
+                                    <h5 class="mb-0">The-Burger</h5>
+                                    <p class="mb-0 sky-color gilory-sbold">4Roms</p>
+                                    <div class="d-flex align-items-center">
+                                        <p class="mb-0">€44</p>
+                                        <i class="fa-regular fa-trash-can mx-2 green-color"></i>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="row text-center justify-content-between align-items-center">
+                                        <div class="col-4 px-0"><i class="fa-solid fa-xmark text-white"
+                                                style="border-radius:100% ; padding: 5px 7px; background-color: #ff0606; font-size:12px;"></i>
+                                        </div>
+                                        <div class="col-3 px-0">
+                                            <p class="p-0 m-0 gilory-sbold">23</p>
+                                        </div>
+                                        <div class="col-4 px-0"><i class="fa-solid fa-plus text-white"
+                                                style="border-radius:100% ; padding: 5px 5px 5px 5px; background-color: #F5AD41; font-size:12px;"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ps-5">
+                                    <li class="gilory-bold m-0 ps-1" style="font-size: 15px;">1x Large Size</li>
+                                    <li class="gilory-bold m-0 ps-1" style="font-size: 15px;">1x Extra Spice
+                                        <span>(€44)</span>
+                                    </li>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mx-0 purple-clor">
+                            <div class="col-12 py-3 position-absolute bottom-0 bg-white shadow-sidebar px-4">
+                                <div class="row align-items-center">
+                                    <div class="col-8 gilory-sbold leter-space">
+                                        <p class=" mb-2">SUBTOTAL</p>
+                                    </div>
+                                    <div class="col-4 gilory-bold text-end">
+                                        <p class=" mb-2">€0</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-8 gilory-sbold leter-space">
+                                        <p>SHIPPING COST</p>
+                                    </div>
+                                    <div class="col-4 gilory-bold text-end">
+                                        <p>€10</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-8 gilory-sbold leter-space">
+                                        <p>TOTAL</p>
+                                    </div>
+                                    <div class="col-4 gilory-bold text-end fs-4">
+                                        <p>€0</p>
+                                    </div>
+                                </div>
+                                <a href="#">
+                                    <div
+                                        class="border-0 text-white py-3 green-bg-color side-br-b gilory-bold text-center">
+                                        TO
+                                        ORDER</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <!-- side-bar-end -->
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+
+    <script>
+        $(".paymnt-hov").click(function () {
+            $(".paymnt-hov").css("background-color", "#edf5ff");
+            $(this).css("background-color", "#F5AD41");
+        });
+    </script>
+</body>
+
+</html>
